@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Dashboard</title>
+    <link rel="stylesheet" href="home.component.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <ul class="navbar-nav">
+            <!-- Your navigation items -->
+            <li class="nav item px-3">
+                <a class="nav-link">Home</a>
+            </li>
+    
+            <li class="nav item px-3">
+                <a class="nav-link" href="#nm">Gallary</a>
+            </li>
+    
+            <li class="nav item px-3">
+                <a class="nav-link" href="login">Admin Login</a>
+            </li>
+            <li class="nav item px-3">
+                <a class="nav-link" href="user-login">User Login</a>
+            </li>
+    
+            <li class="nav item px-3">
+                <a class="nav-link" href="registration">Registration</a>
+            </li>
+            <li class="nav item px-3">
+                <a class="nav-link" href="aboutus">About Us</a>
+            </li>
+            <li class="nav item px-3">
+                <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav item px-3">
+                <a class="nav-link"  href="feedback">Feedback</a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+
+    <marquee class = "marquee-heading" >
+        <h1>Welcome to Seven-Star Paradise!</h1>
+    </marquee>
+
+    <div class="image">
+        <img src="./assets/Home.jpg" height="600" width="1240" alt="logo" />
+    </div>
+    <div class="gallery">
+        <!-- Your image gallery section -->
+        <h4>
+            <em><a name="nm"> </a></em>
+        </h4>
+        <a routerLink="/registration">
+            <img src="./assets/room1.jpg" height="200" width="200" alt="Room 1" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a routerLink="/registration">
+            <img src="./assets/room2.jpg" height="200" width="200" alt="Room 2" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a routerLink="/registration">
+            <img src="./assets/room3.jpg" height="200" width="200" alt="Room 3" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a routerLink="/registration">
+            <img src="./assets/room4.jpg" height="200" width="200" alt="Room 4" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a routerLink="/registration">
+            <img src="./assets/room5.jpg" height="200" width="200" alt="Room 5" />
+        </a><br>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+    <div class="gallery2">
+        <!-- Another section of the image gallery -->
+        <a routerLink="/registration">
+            <img src="./assets/room6.jpg" height="200" width="200" alt="Room 6" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a routerLink="/registration">
+            <img src="./assets/room7.jpg" height="200" width="200" alt="Room 7" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a routerLink="/registration">
+            <img src="./assets/room8.jpg" height="200" width="200" alt="Room 8" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a routerLink="/registration">
+            <img src="./assets/room9.jpg" height="200" width="200" alt="Room 9" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a routerLink="/registration">
+            <img src="./assets/room10.jpg" height="200" width="200" alt="Room 10" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+
+    <div class="contact">
+        <div class="container p-5 my-5 border">
+            <div class="header">
+                <h3><a name="contact">Contact Us</a></h3>
+            </div>
+            <form>
+                <div class="form-group">
+                    <!-- Your contact information -->
+                    <label><i class="fa fa-home"><br><b>&nbsp;Address:pune</b></i></label><br>
+                    <label><i class="fa fa-phone"><b>&nbsp;+8888888888 Mon to fri 9am to 6pm:</b></i></label><br>
+    
+                    <label><i class="fa fa-box"><b>&nbsp;support@support.com send us youe query
+                                anytime</b></i></label><br>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121059.0471112711!2d73.780566376408!3d18.52459859991175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1688705364587!5m2!1sen!2sin"
+            height="400" width="1330" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <br>
+
+    <div style="background-color:#734d26;padding-bottom:30px">
+        <footer style="color:white;">
+            <em>
+                <h4 class="text-center">
+                    All Rights Reserved &copy; 2023
+                </h4>
+            </em>
+        </footer>
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+<!--<nav class="navbar navbar-expand-sm  navbar-dark">
+
+    <ul class="navbar-nav">
+        <li class="nav item px-3">
+            <a class="nav-link">Home</a>
+        </li>
+
+        <li class="nav item px-3">
+            <a class="nav-link" href="#nm">Gallary</a>
+        </li>
+
+        <li class="nav item px-3">
+            <a class="nav-link" href="login">Admin Login</a>
+        </li>
+        <li class="nav item px-3">
+            <a class="nav-link" href="user-login">User Login</a>
+        </li>
+
+        <li class="nav item px-3">
+            <a class="nav-link" href="registration">Registration</a>
+        </li>
+        
+           <!--<li class="nav item dropdown px-3">
+            <a href="dropdown-menu" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Login</a>	
+            
+            <div class="dropdown-menu">
+            <a href="login" class="dropdown-item">Admin</a>
+            <a href="customerlogin" class="dropdown-item">Customer</a>
+            </div>
+            </li> 
+        <li class="nav item dropdown px-3">
+            <a href="dropdown-menu" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Registration</a>
+
+            <div class="dropdown-menu">
+                <a href="registration" class="dropdown-item">Admin</a>
+                <a href="user-registration" class="dropdown-item">Customer</a>
+
+            </div>
+        </li>-->
+    
+        <!--<li class="nav item px-3">
+            <a class="nav-link" href="aboutus">About Us</a>
+        </li>
+        <li class="nav item px-3">
+            <a class="nav-link" href="#contact">Contact Us</a>
+        </li>
+        <li class="nav item px-3">
+            <a class="nav-link"  href="feedback">Feedback</a>
+        </li>
+    </ul>
+</nav>
+<br>
+<marquee behavior="slide" direction="left"><h1>Welcome!!!!</h1></marquee>
+<div class="image">
+    <img src="./assets/home4.jpg" height="600" width="1240" alt="logo" />
+</div>
+
+<div class="gallary">
+    <h4>
+        <em><a name="nm">Gallary</a></em>
+    </h4>
+    <img src="./assets/room1.jpg" height="200" width="200"
+        alt="logo" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./assets/room2.jpg" height="200" width="200"
+        alt="logo" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./assets/room3.jpg" height="200" width="200"
+        alt="logo" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./assets/room4.jpg" height="200" width="200"
+        alt="logo" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./assets/room5.jpg" height="200" width="200" alt="logo" /><br>
+</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="gallary2"><img src="./assets/room6.jpg" height="200" width="200"
+        alt="logo" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./assets/room7.jpg" height="200" width="200"
+        alt="logo" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./assets/room8.jpg" height="200" width="200"
+        alt="logo" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./assets/room9.jpg" height="200" width="200"
+        alt="logo" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./assets/room10.jpg" height="200" width="200"
+        alt="logo" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<div class="contact">
+    <div class="container p-5 my-5  border">
+
+        <div class="header">
+            <h3><a name="contact">Contact Us</a></h3>
+        </div>
+        <form>
+            <div class="form-group">
+                <label><i class="fa fa-home"><br><b>&nbsp;Address:pune</b></i></label><br>
+                <label><i class="fa fa-phone"><b>&nbsp;+8888888888 Mon to fri 9am to 6pm:</b></i></label><br>
+
+                <label><i class="fa fa-box"><b>&nbsp;support@support.com send us youe query
+                            anytime</b></i></label><br>
+
+            </div>
+
+
+        </form>
+    </div>
+</div>
+
+<div class="map">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121059.0471112711!2d73.780566376408!3d18.52459859991175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1688705364587!5m2!1sen!2sin"
+        height="400" width="1330" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<br>
+<div style="background-color:#734d26;padding-bottom:30px">
+    <footer style="color:white;">
+        <em>
+            <h4 class="text-center">
+                AllRightsReservedto@2023
+            </h4>
+        </em>
+    </footer>
+</div>
+-->
+
